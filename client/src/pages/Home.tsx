@@ -54,9 +54,9 @@ export default function Home() {
 
               {/* Welcome Paragraph */}
               <p className="text-base md:text-lg text-foreground leading-relaxed max-w-lg">
-                I'm a <em>builder at heart</em>. Whether I'm stabilizing lasers for quantum
+                I'm a builder at heart. Whether I'm stabilizing lasers for quantum
                 experiments or simulating soccer matches for fun, I'm at my best when I'm working
-                where <em>high-level software meets the actual hardware</em>. 
+                at the hardware-software intersection. 
               </p>
 
               {/* CTA Buttons */}
