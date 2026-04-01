@@ -56,9 +56,7 @@ export default function Home() {
               <p className="text-base md:text-lg text-foreground leading-relaxed max-w-lg">
                 I'm a <em>builder at heart</em>. Whether I'm stabilizing lasers for quantum
                 experiments or simulating soccer matches for fun, I'm at my best when I'm working
-                where <em>high-level software meets the actual hardware</em>. Right now, I'm just
-                focused on pushing the boundaries of what's possible in computing—one system at a
-                time.
+                where <em>high-level software meets the actual hardware</em>. 
               </p>
 
               {/* CTA Buttons */}
@@ -105,8 +103,7 @@ export default function Home() {
                 I've always been more driven by <em>"how does this work?"</em> than by a specific
                 job title. Right now, that curiosity has led me to the frontier of quantum
                 computing and embedded hardware. I'm at a point where I'm genuinely excited about
-                the complexity of these systems, and I'm following that thread to see where it
-                leads.
+                the complexity of these system.
               </p>
             </div>
 
@@ -116,7 +113,7 @@ export default function Home() {
                 Short-Term (1–2 years)
               </h3>
               <p className="text-base text-foreground mb-6 leading-relaxed">
-                My immediate focus is going deeper with the GT Quantum Computing Association. I
+                My immediate focus is going deeper with my interest in Quantum Computing. I
                 want to spend more time in the lab, pursue undergraduate research, and keep testing
                 my skills in hackathons.
               </p>

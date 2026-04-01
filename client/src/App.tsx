@@ -10,7 +10,6 @@ import About from "./pages/About";
 import Resume from "./pages/Resume";
 import Projects from "./pages/Projects";
 import ProjectDetail from "./pages/ProjectDetail";
-import CareerGoals from "./pages/CareerGoals";
 import Skills from "./pages/Skills";
 import Contact from "./pages/Contact";
 import { useEffect } from "react";
@@ -31,7 +30,6 @@ function Router() {
         <Route path={"/resume"} component={Resume} />
         <Route path={"/projects"} component={Projects} />
         <Route path={"/projects/:id"} component={ProjectDetail} />
-        <Route path={"/career-goals"} component={CareerGoals} />
         <Route path={"/skills"} component={Skills} />
         <Route path={"/contact"} component={Contact} />
         <Route path={"/404"} component={NotFound} />

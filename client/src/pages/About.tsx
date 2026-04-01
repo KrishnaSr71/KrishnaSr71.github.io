@@ -36,11 +36,10 @@ export default function About() {
           <div className="mb-16 space-y-4 animate-stagger-2">
             <h2 className="text-3xl font-bold">Where I'm From</h2>
             <p className="text-base text-foreground leading-relaxed">
-              I grew up in Hyderabad, India, a city that's a constant mix of old-world history and
-              a massive, modern tech scene. Being surrounded by that energy early on definitely
-              sparked my curiosity about how things are built. It's where I first started taking
-              things apart to see how they worked, and that same drive is what brought me into
-              engineering.
+              I grew up in Hyderabad, India, a city that has both a rich history and
+              a massive, modern tech scene. Whether it was fixing broken bike chains on
+              my own or pranking my friends with 'fake viruses' using batch files, this 
+              is where my love for engineering started.
             </p>
           </div>
 
@@ -50,7 +49,7 @@ export default function About() {
             <p className="text-base text-foreground leading-relaxed">
               I began my engineering journey at UGA, where I finished degrees in Computer Systems
               Engineering and Mathematics. I wanted to push further into hardware and computing
-              research, so I transferred to Georgia Tech — and <em>haven't looked back</em>.
+              research, so I transferred to Georgia Tech.
             </p>
           </div>
 
@@ -66,7 +65,7 @@ export default function About() {
             <h3 className="text-2xl font-bold">Outside of Engineering</h3>
             <p className="text-base text-foreground leading-relaxed">
               When I'm not in the lab, you'll probably find me at the cinema. I'm a big fan of
-              directors who have a <em>distinct voice</em>—Christopher Nolan and the Coen Brothers
+              directors who have a distinct voice: Christopher Nolan and the Coen Brothers
               on the Hollywood side, and Jandhyala or Trivikram Srinivas for Telugu classics. If
               I'm not watching a movie, I'm likely playing a casual game of basketball or soccer.
             </p>
