@@ -45,11 +45,11 @@ export default function ProjectDetail() {
       </div>
 
       {/* Hero Section with Image */}
-      <div className="w-full h-96 bg-gray-200 overflow-hidden">
+      <div className="w-full h-screen bg-gray-200 overflow-hidden flex items-center justify-center">
         <img
           src={project.imageUrl}
           alt={project.title}
-          className="w-full h-full object-cover"
+          className="w-full h-full object-contain"
         />
       </div>
 

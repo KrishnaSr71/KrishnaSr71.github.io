@@ -39,7 +39,7 @@ What makes RefNet unique is its ability to surface hidden connections between re
     ],
     technologies: ["React", "D3.js", "NetworkX", "Flask", "Docker", "AWS EC2"],
     link: "https://github.com/Shreyas765/RefNet",
-    imageUrl: "https://via.placeholder.com/600x400?text=RefNet+Citation+Network",
+    imageUrl: "https://i.imgur.com/X0BBB1H.jpeg",
   },
   {
     id: 2,
@@ -66,7 +66,7 @@ The implementation involved careful calibration of error thresholds and strategi
     ],
     technologies: ["Python", "Cirq", "Bloqade", "Tsim"],
     link: "https://github.com/VigneshSK17/2026-QuEra-Technical-PhaZeClan",
-    imageUrl: "https://via.placeholder.com/600x400?text=Quantum+Error+Correction+Circuits",
+    imageUrl: "https://i.imgur.com/9hBXGGi.png",
   },
   {
     id: 3,
@@ -95,7 +95,7 @@ The system was validated through extensive bench testing and vehicle testing on 
     ],
     technologies: ["C++", "CAN Bus", "Altium", "PID Control"],
     link: undefined,
-    imageUrl: "https://via.placeholder.com/600x400?text=Electronic+Throttle+Body+System",
+    imageUrl: "https://i.imgur.com/UnOQngU.png",
   },
   {
     id: 4,
@@ -122,6 +122,6 @@ The implementation uses Python for the core simulation engine and data processin
     ],
     technologies: ["Python", "Monte-Carlo Simulation", "Pandas", "Matplotlib"],
     link: "https://github.com/KrishnaSr71/footy-montecarlo",
-    imageUrl: "https://via.placeholder.com/600x400?text=Soccer+Match+Simulator",
+    imageUrl: "https://i.imgur.com/7WknC3R.png",
   },
 ];
