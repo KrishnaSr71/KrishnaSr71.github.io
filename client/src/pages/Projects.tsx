@@ -23,26 +23,6 @@ const projects = [
     technologies: ["Python", "Cirq", "Bloqade", "Tsim"],
     link: "https://github.com/VigneshSK17/2026-QuEra-Technical-PhaZeClan",
   },
-  {
-    id: 3,
-    title: "Electronic Throttle Body System",
-    placement: "UGA Motorsports",
-    date: "December 2025",
-    description:
-      "In racing, 'drive-by-wire' has to be perfect. I led a sub-team to build a throttle system that replaced mechanical cables with precise electronic control. We used C++ for the PID feedback loops and integrated everything over a CAN bus. Safety was the priority, so we built in redundant logic and ran full FMEA (Failure Mode and Effects Analysis) to make sure it wouldn't fail on the track.",
-    technologies: ["C++", "CAN Bus", "Altium", "PID Control"],
-    link: null,
-  },
-  {
-    id: 4,
-    title: "Footy Monte-Carlo",
-    placement: "In Progress",
-    date: "Ongoing",
-    description:
-      "Combining my love for soccer and math. This is a simulator that uses Monte-Carlo methods to predict match outcomes based on historical data and team metrics. It's a fun way to apply statistical modeling to something I'm genuinely passionate about.",
-    technologies: ["Python", "Monte-Carlo Simulation"],
-    link: "https://github.com/KrishnaSr71/footy-montecarlo",
-  },
 ];
 
 export default function Projects() {
