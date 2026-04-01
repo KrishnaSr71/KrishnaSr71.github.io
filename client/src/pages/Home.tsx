@@ -16,7 +16,7 @@ export default function Home() {
     {
       title: "Advanced Coursework",
       description:
-        "Taking Data Structures & Algorithms, Systems Programming, Assembly Language, Circuits, and Digital Logic Design.",
+        "Taking courses in the Computing Hardwares and Emerging Architectures (CHEA) and Signal and Information Processing Threads.",
     },
     {
       title: "Research",
