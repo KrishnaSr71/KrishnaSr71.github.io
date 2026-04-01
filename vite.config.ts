@@ -153,7 +153,7 @@ function vitePluginManusDebugCollector(): Plugin {
 const plugins = [react(), tailwindcss(), jsxLocPlugin(), vitePluginManusRuntime(), vitePluginManusDebugCollector()];
 
 export default defineConfig({
-  base: '/krishna-eportfolio/',
+  base: "https://KrishnaSr71.github.io",
   plugins,
   resolve: {
     alias: {
