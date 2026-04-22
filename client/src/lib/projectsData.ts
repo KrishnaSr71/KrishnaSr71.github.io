@@ -149,6 +149,6 @@ Taken together, the project touched every major phase of the VLSI design flow â€
     ],
     technologies: ["SystemVerilog", "Cadence Tools", "GitHub"],
     link: undefined,
-    imageUrl: "https://i.imgur.com/N3Eu9Q1.png",
+    imageUrl: "https://i.imgur.com/tfMFHsE.png",
   },
 ];
