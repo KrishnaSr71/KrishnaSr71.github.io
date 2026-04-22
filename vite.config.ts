@@ -153,7 +153,8 @@ function vitePluginManusDebugCollector(): Plugin {
 const plugins = [react(), tailwindcss(), jsxLocPlugin(), vitePluginManusRuntime(), vitePluginManusDebugCollector()];
 
 export default defineConfig({
-  base: "https://KrishnaSr71.github.io",
+  base: "https://KrishnaSr71.github.io", // PUSH TO GITHUB
+  // base: ".", // LOCAL PREVIEW
   plugins,
   resolve: {
     alias: {

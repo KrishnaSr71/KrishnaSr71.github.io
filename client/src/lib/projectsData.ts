@@ -100,7 +100,7 @@ The system was validated through extensive bench testing and vehicle testing on 
   {
     id: 4,
     title: "Footy Monte-Carlo",
-    placement: "In Progress",
+    placement: "Personal Project",
     date: "Ongoing",
     shortDescription:
       "Combining my love for soccer and math. This is a simulator that uses Monte-Carlo methods to predict match outcomes based on historical data and team metrics.",
@@ -123,5 +123,32 @@ The implementation uses Python for the core simulation engine and data processin
     technologies: ["Python", "Monte-Carlo Simulation", "Pandas", "Matplotlib"],
     link: "https://github.com/KrishnaSr71/footy-montecarlo",
     imageUrl: "https://i.imgur.com/7WknC3R.png",
+  },
+    {
+    id: 5,
+    title: "64-Bit Calculator Chip",
+    placement: "SiliconJackets",
+    date: "Ongoing",
+    shortDescription:
+      "Conducted physical & digital design and verification of a 64-bit calculator chip. Created a Finite State Machine to synchronize tasks across chip, and built an interface for on-chip SRAM module.",
+    fullDescription:
+      "Conducted physical & digital design and verification of a 64-bit calculator chip. Created a Finite State Machine to synchronize tasks across chip, and built an interface for on-chip SRAM module.",
+    overview: `This project involved the full-stack design and verification of a 64-bit calculator chip, spanning both the physical and digital domains from initial architecture through final sign-off. On the digital side, the work covered RTL-level logic design for a 64-bit datapath capable of performing arithmetic and logic operations. On the physical side, the design was carried through layout, including floorplanning, placement and routing, and physical verification checks such as DRC and LVS.
+
+A central contribution of the project was the design of a Finite State Machine to serve as the chip's control backbone. The FSM was responsible for synchronizing task execution across the chip's subsystems, managing sequencing and timing to ensure correct operation across all operational states.
+
+The project also included building a dedicated interface for the chip's on-chip SRAM module. This interface handled the communication protocol between the processor logic and static memory, enabling structured and reliable read/write access during chip operation.
+
+Taken together, the project touched every major phase of the VLSI design flow — architecture, logic design, physical implementation, memory integration, and verification — making it a comprehensive end-to-end hardware design experience.`,
+    results: [
+      "98% functional verification coverage across all operational states and datapath logic",
+      "0 DRC violations at physical signoff",
+      "Full FSM state transition graph validated with no unreachable states and no deadlock conditions",
+      "Positive timing slack across all critical paths under worst-case PVT conditions",
+      "All signoff checks passed with no outstanding violations across functional, physical, and timing categories",
+    ],
+    technologies: ["SystemVerilog", "Cadence Tools", "GitHub"],
+    link: undefined,
+    imageUrl: "https://i.imgur.com/N3Eu9Q1.png",
   },
 ];
