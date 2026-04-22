@@ -137,7 +137,7 @@ The implementation uses Python for the core simulation engine and data processin
 
 A central contribution of the project was the design of a Finite State Machine to serve as the chip's control backbone. The FSM was responsible for synchronizing task execution across the chip's subsystems, managing sequencing and timing to ensure correct operation across all operational states.
 
-The project also included building a dedicated interface for the chip's on-chip SRAM module. This interface handled the communication protocol between the processor logic and static memory, enabling structured and reliable read/write access during chip operation.
+The project also included building a dedicated interface for the chip's on-chip SRAM module. This interface handled the communication protocol between the processor logic and static memory, enabling structured and reliable read/write access during chip operation. This was also one of the most challenging steps in the entire process, because the physical placement of the hardware directly impacted signal times, and determined whether the chip even worked.
 
 Taken together, the project touched every major phase of the VLSI design flow — architecture, logic design, physical implementation, memory integration, and verification — making it a comprehensive end-to-end hardware design experience.`,
     results: [
