@@ -141,7 +141,7 @@ The project also included building a dedicated interface for the chip's on-chip 
 
 Taken together, the project touched every major phase of the VLSI design flow — architecture, logic design, physical implementation, memory integration, and verification — making it a comprehensive end-to-end hardware design experience.`,
     results: [
-      "98% functional verification coverage across all operational states and datapath logic",
+      "99.95% functional verification coverage across all operational states and datapath logic",
       "0 DRC violations at physical signoff",
       "Full FSM state transition graph validated with no unreachable states and no deadlock conditions",
       "Positive timing slack across all critical paths under worst-case PVT conditions",
